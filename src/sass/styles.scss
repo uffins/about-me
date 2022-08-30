@@ -1,8 +1,8 @@
-@import "Variables.scss";
+@import "Variables";
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {
-  background: #253278;
+  background: #5f6e98;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,43 +11,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.bd-dashed {
+  border-bottom: 5px dashed #5a65a6;
+}
+
 .App {
   color: #fff;
-  width: 540px;
+  width: 620px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.App hr {
-  border-top: 5px dashed #5a65a6;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

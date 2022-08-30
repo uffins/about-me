@@ -1,0 +1,117 @@
+[
+  {
+    "type": "language",
+    "name": "PHP",
+    "icon": "devicon-php-plain"
+  },
+  {
+    "type": "language",
+    "name": "Codeigniter",
+    "icon": "devicon-codeigniter-plain-wordmark"
+  },
+  {
+    "type": "language",
+    "name": "MySQL",
+    "icon": "devicon-mysql-plain"
+  },
+  {
+    "type": "language",
+    "name": "Redis",
+    "icon": "devicon-redis-plain-wordmark"
+  },
+  {
+    "type": "language",
+    "name": "React",
+    "icon": "devicon-react-original"
+  },
+  {
+    "type": "language",
+    "name": "Node.js",
+    "icon": "devicon-nodejs-plain"
+  },
+  {
+    "type": "language",
+    "name": "jQuery",
+    "icon": "devicon-jquery-plain-wordmark"
+  },
+  {
+    "type": "language",
+    "name": "HTML5",
+    "icon": "devicon-html5-plain-wordmark"
+  },
+  {
+    "type": "language",
+    "name": "CSS3",
+    "icon": "devicon-css3-plain-wordmark"
+  },
+  {
+    "type": "language",
+    "name": "sass",
+    "icon": "devicon-sass-original"
+  },
+  {
+    "type": "language",
+    "name": "Bootstrap",
+    "icon": "devicon-bootstrap-plain-wordmark"
+  },
+  {
+    "type": "environment",
+    "name": "Amazon Web Service",
+    "icon": "devicon-amazonwebservices-original"
+  },
+  {
+    "type": "environment",
+    "name": "Google Cloud Platform",
+    "icon": "devicon-googlecloud-plain"
+  },
+  {
+    "type": "environment",
+    "name": "linux",
+    "icon": "devicon-linux-plain"
+  },
+  {
+    "type": "tool",
+    "name": "github",
+    "icon": "devicon-github-original"
+  },
+  {
+    "type": "tool",
+    "name": "Bitbucket",
+    "icon": "devicon-bitbucket-original"
+  },
+  {
+    "type": "tool",
+    "name": "Slack",
+    "icon": "devicon-slack-plain"
+  },
+  {
+    "type": "tool",
+    "name": "Confluence",
+    "icon": "devicon-confluence-original"
+  },
+  {
+    "type": "tool",
+    "name": "Jira",
+    "icon": "devicon-jira-plain"
+  },
+  {
+    "type": "tool",
+    "name": "Trello",
+    "icon": "devicon-trello-plain"
+  },
+  {
+    "type": "tool",
+    "name": "figma",
+    "icon": "devicon-figma-plain"
+  },
+  {
+    "type": "tool",
+    "name": "phpstorm",
+    "icon": "devicon-phpstorm-plain"
+  },
+  {
+    "type": "tool",
+    "name": "vscode",
+    "icon": "devicon-vscode-plain"
+  }
+]
