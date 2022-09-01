@@ -1,3 +1,5 @@
+import React from 'react';
+
 const SkillSet = ({list}) => {
   return (
     <ul className="list-inline">

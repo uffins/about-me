@@ -17,7 +17,11 @@ body {
 
 .App {
   color: #fff;
-  width: 620px;
+  max-width: 780px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.bg-box {
+  background-color: rgba( 255, 255, 255, 0.1);
 }
