@@ -31,6 +31,11 @@
   },
   {
     "type": "language",
+    "name": "typescript",
+    "icon": "devicon-typescript-plain"
+  },
+  {
+    "type": "language",
     "name": "jQuery",
     "icon": "devicon-jquery-plain-wordmark"
   },

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import {Col, Container, Image, Row} from 'react-bootstrap';
-import data from './components/skill/data.json';
-import SkillSetElements from './components/skill/SkillSet';
+import skillData from './components/skill/data.json';
+import { SkillSetElements, ProfileElements } from './components';
 import _ from 'lodash';
 
-const dataset = _.groupBy(data, 'type');
+const dataset = _.groupBy(skillData, 'type');
 
 const App = () => (
     <Container fluid="sm" className="App">
@@ -17,17 +17,7 @@ const App = () => (
       </Row>
       <Row className="pt-2">
         <Col xs={12} sm={3} md={3} lg={3} className="text-center pb-3">
-          <Image src="/images/profile.jpg"
-                 alt="photo"
-                 fluid={true}
-                 roundedCircle={true}
-                 className="border border-primary border-3" />
-          <hr/>
-          <ul className="list-unstyled mt-2">
-            <li><small>🎂 1992. 06. 16.</small></li>
-            <li><small>💌 fromben@kakao.com</small></li>
-            <li><small>🏠 서울시 서초구 방배동</small></li>
-          </ul>
+          <ProfileElements />
         </Col>
         <Col xs={12} sm={9} md={9} lg={9}>
           <div className="rounded p-4 bg-box">
